@@ -21,4 +21,5 @@ int main(int argc, char * argv[]) {
   lex(code);
   dump(tokens, tokenTop);
   parse();
+  return 0;
 }
